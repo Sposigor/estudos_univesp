@@ -22,11 +22,16 @@ Escreva expressões algébricas Python correspondentes aos seguintes comandos:
 
 ## 2.12
 # A
-for x in range(0, 7, 1):
-    x = x + 1
-    print(x)
+lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+print(f"{sum(lista[0:5])}")
+
+# for x in range(0, 7, 1):
+#     print(x)
+
 
 # B
+idade_pessoas_2 = {"Sara": 23, "Mark": 19, "Fatima": 31}
 idades_pessoas = [23, 19, 31]
 print(f"Idade Média: {statistics.mean(idades_pessoas)}")
 
@@ -34,7 +39,7 @@ print(f"Idade Média: {statistics.mean(idades_pessoas)}")
 print(f"Quantas vezes 73 cabe em 403: {403 // 73}")
 
 # D
-print(f"O resto da divisão de 403 por 73 é: {73 // 403}")
+print(f"O resto da divisão de 403 por 73 é: {403 % 73}")
 
 # E
 print(f"2 elevado a 20 é: {2**20}")
