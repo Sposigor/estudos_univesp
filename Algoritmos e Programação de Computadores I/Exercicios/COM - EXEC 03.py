@@ -65,8 +65,6 @@ Implemente a função trocaPU(), que aceita uma lista como entrada e troca o pri
 
 
 # Exercício 3.1
-from pickle import FALSE
-
 
 fah = float(input("Digite a temperatura em graus Fahrenheit: "))
 cel = 5 * (fah - 32) / 9
