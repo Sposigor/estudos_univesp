@@ -76,9 +76,9 @@ def average(x, y):
 print(average(2, 3.5))
 
 # Exercício 3.9
-def perimetro(r):
+def perimetro(x):
     import math
-    r = r
+    r = x
     return 2 * math.pi * r
 print(perimetro(1))
 
